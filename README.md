@@ -30,21 +30,17 @@ This project contains automated end-to-end tests for the [SauceDemo](https://www
    cd saucedemo_test
 
 2. Install dependencies:
-    ```bash
     npm install
 
 3. Scripts
 
 Open Cypress Test Runner
-    ```bash
     npm run cy:open
 
 Run Tests in Headless Mode:
-    ```bash
     npm run cy:test
 
 Run Tests in Edge Browser:
-    ```bash
     npm run cy:run:edge
 
 4. Tests
