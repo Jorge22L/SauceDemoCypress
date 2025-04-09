@@ -33,7 +33,7 @@ This project contains automated end-to-end tests for the [SauceDemo](https://www
     ```bash
     npm install
 
-Scripts
+3. Scripts
 
 Open Cypress Test Runner
     ```bash
@@ -47,7 +47,7 @@ Run Tests in Edge Browser:
     ```bash
     npm run cy:run:edge
 
-Tests
+4. Tests
 
 The test suite includes the following scenarios:
 
@@ -64,14 +64,14 @@ Login with Empty Fields:
 
 Attempts to log in with empty username and password fields and verifies the error message.
 
-Custom Commands
+5. Custom Commands
 The following custom commands are defined in cypress/support/commands.js:
 
 cy.login(url, email, password): Automates the login process.
 cy.logout(): Automates the logout process.
 
-Reports
+6. Reports
 Test results are generated using the Mochawesome reporter. Reports can be found in the cypress/reports/ directory after running the tests.
 
-Screenshots
+7. Screenshots
 Screenshots of failed tests are saved in the cypress/screenshots/ directory.
